@@ -9,9 +9,9 @@ computation as well as computation priority management<br/>
 <br/>
 -I used the following grammar:<br/>
 	E -> T E'<br/>
-	E'-> + T E' | - T E' | Δ <br/>
+	E'-> + T E' | - T E' | ε <br/>
 	T -> F T'<br/>
-	T'-> * F T' | / F T' | % F T'<br/>
+	T'-> * F T' | / F T' | % F T' | ε <br/>
 	F -> (E) | id<br/>
 <br/>
 -to compute an arithmetical expression you must compile all the c files like this:<br/>
