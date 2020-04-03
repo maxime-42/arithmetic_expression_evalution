@@ -11,8 +11,8 @@ computation as well as computation priority management
 	E -> T E'
 	E'-> + T E' | - T E'
 	T -> F T'
-	T'-> * F T' | / F T' | % F T'\n
-	F -> (E) | id\n
+	T'-> * F T' | / F T' | % F T'
+	F -> (E) | id
 
 -to compute an arithmetical expression you must compile all the c files like this:
 	compile-> gcc -Wall -Wextra -Werror * .c
