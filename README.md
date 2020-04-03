@@ -11,7 +11,7 @@ computation as well as computation priority management<br/>
 	E -> T E'<br/>
 	E'-> + T E' | - T E' | ε <br/>
 	T -> F T'<br/>
-	T'-> * F T' | / F T' | % F T' | ε <br/>
+	T'-> * F T' |  / F T' | % F T' | ε <br/>
 	F -> (E) | id<br/>
 <br/>
 -to compute an arithmetical expression you must compile all the c files like this:<br/>
