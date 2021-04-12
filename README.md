@@ -21,5 +21,6 @@ computation as well as computation priority management<br/>
 -for recursive descends I did not implement the modulo operator :)<br/>
 <br/>
 -I helped myself with the following tutorials:<br/>
+	https://www.strchr.com/expression_evaluator<br/>
 	https://ruslanspivak.com/lsbasi-part7/<br/>
 	https://www.geeksforgeeks.org/evaluation-of-expression-tree/<br/>
